@@ -18,14 +18,15 @@ public class Box {
 			System.out.println();
 		}
 	}
-
+	//size of box
 	public static void main(String[] args) {
 		Box myBox = new Box();
 		myBox.size = 5;
 		myBox.printBox();
 
-		System.out.println("Output from Overloaded method, I have passed char as b\n");
+		System.out.println("Output from Overloaded method, I have passed char as c\n");
 
+		//print box as c instead of *
 		myBox.printBox('c'); 
 
 	}
