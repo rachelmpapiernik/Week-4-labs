@@ -32,7 +32,7 @@ public class Card {
 		return "Card{" + "suit='" + suit + '\'' + ", faceValue=" + faceValue + '}';
 	}
 
-	card values
+	//card values
 	public static void main(String[] args) {
 
 		String[] suits = { "spades", "hearts", "diamonds", "clubs" };
