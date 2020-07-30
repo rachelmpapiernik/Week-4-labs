@@ -1,6 +1,7 @@
 public class Box {
 	public int size = 0;
 
+	//create box
 	public void printBox() {
 		for (int i = 0; i < size; ++i) {
 			for (int j = 0; j < size; ++j) {
