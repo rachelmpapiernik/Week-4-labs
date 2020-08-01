@@ -44,7 +44,7 @@ public class Numbers {
 
 		for (int i = 0; i < size; i++) {
 			int nextLargestElement = nextLargest(sortedArray, array[i]);
-			if (nextLargestElement != -1) {
+			if (nextLargestElement != Integer.MAX_VALUE) {
 				System.out.println(array[i] + ": " + nextLargestElement);
 			} else {
 				System.out.println(array[i]);
